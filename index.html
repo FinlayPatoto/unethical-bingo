@@ -259,7 +259,7 @@
                 const isWin = condition.every(squareId => clickedSquares.has(squareId));
                 if (isWin) {
                     if (!bingoDetected) { // Check if the win hasn't been detected yet
-                        playAudio();
+                        playAudio()
                         alert("BINGO! You WON!"); // Show the alert
                         bingoDetected = true; // Set the flag to true to indicate that the win has been detected
                     }
